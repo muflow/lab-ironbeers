@@ -5,3 +5,148 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+h1 {
+    font-size: 24px;
+    
+}
+
+h2 {
+    font-size: 22px;
+    
+    
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: #2081c3;
+    padding: 20px 0;    
+}
+
+.nav-bar-ul {
+    display: flex;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+
+/* index.hbs */
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.beer-img {
+    width: 300px;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: inherit;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(25, 33, 41);
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer > p {
+    margin-top: 10px;
+}
+
+
+.link-btn {
+    background-color: #2081c3;
+    color: #f7f9f9;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #b8b8b8;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+
+/* beers.hbs */
+
+#beers-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 30px 0;
+    
+}
+
+
+.card-img-top {
+    max-height: 200px;
+}
+
+
+/* partials.hbs */
+
+.img-box {
+    width: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.beer-info-container > p {
+    width: 400px;
+}
+
+
+/* beerinfo.hbs */
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+
+.card-img-top2 {
+    max-height: 300px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.food-pairing > li {
+    font-size: 14px;
+    list-style-type: circle;
+    margin-left: 20px;
+}

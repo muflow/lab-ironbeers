@@ -1,0 +1,27 @@
+{{#each beer}}
+<div class="container2">
+    <div>
+        <img class="card-img-top2" src="{{image_url}}" alt="{{name}}" />
+    </div>
+    <div class="beer-info-container">
+        <h3>{{name}}</h3>
+        <p>{{tagline}}</p>
+        <p>{{description}}</p>
+
+
+        {{!-- {{> beerpartial }} --}}
+
+        <h3>First Brewed</h3>
+        <p>{{first_brewed}}</p>
+        <h3>Food Pairing</h3>
+        <ul class="food-pairing">
+            {{#each food_pairing}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>Brewers Tips</h3>
+        <p>{{brewers_tips}}</p>
+    </div>
+
+</div>
+{{/each}}
